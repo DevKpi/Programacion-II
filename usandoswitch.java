@@ -113,10 +113,17 @@ public class usandoswitch {
         Scanner entradanum2 = new Scanner (System.in);        
         float numdos = entradanum2.nextFloat();
         
-        System.out.println("Ingrese un caracter");       
+        System.out.println("Ingrese un caracter ( -  +  *  /)");       
         Scanner entradacaract = new Scanner (System.in);    
         String caract = entradacaract.nextLine();
         
+        if(){ 
+            System.out.println("El caracter ingresado no es valido");
+        } else {
+            
+            switch()
+            
+        }
         
         
     }
