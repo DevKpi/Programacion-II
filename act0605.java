@@ -13,7 +13,7 @@ public class act0605 {
         
         int[] numeros = {10, 20, 30, 40, 50};
         double promedio = CalcularPromedio(numeros);
-        System.out.println();
+        System.out.println("El promedio es: " + promedio);
         
     }
     
@@ -32,8 +32,12 @@ public class act0605 {
         return ticket;
     }
     
-    public static double CalcularPromedio([]numeros){
-        return ;
+    public static double CalcularPromedio(int[] numeros){
+        int suma = 0;
+        for (int i = 0; i < numeros.length; i++) {
+            suma += numeros[i];
+        }
+        return (double) suma / numeros.length;
     }
     
 }
